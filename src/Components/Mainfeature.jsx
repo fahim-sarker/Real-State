@@ -11,7 +11,7 @@ import Playcardreusable from "./Playcardreusable";
 const Mainfeature = () => {
   return (
     <>
-      <section className="py-20">
+      <section className="lg:py-20 py-10 lg:px-0 px-2">
         <Container>
           <Featureheaderreusable
             content1="Features"
@@ -19,8 +19,8 @@ const Mainfeature = () => {
             content3=" There are many variations of passages of Lorem Ipsum available
                        but the majority have suffered alteration in some form."
           />
-          <div className="flex justify-between">
-            <div className="w-[23%]">
+          <div className="flex flex-wrap justify-between">
+            <div className="lg:w-[23%] w-[48%]">
               <Svg icon={IoIosGift} />
               <Playcardreusable
                 content1="Premium Property Listings"
@@ -28,7 +28,7 @@ const Mainfeature = () => {
                 content3="Learn More"
               />
             </div>
-            <div className="w-[23%]">
+            <div className="lg:w-[23%] w-[48%]">
               <Svg icon={MdOutlineCalendarToday} />
               <Playcardreusable
                 content1="Personalized Property Matching"
@@ -36,7 +36,7 @@ const Mainfeature = () => {
                 content3="Learn More"
               />
             </div>
-            <div className="w-[23%]">
+            <div className="lg:w-[23%] w-[48%] lg:mt-0 mt-5">
               <Svg icon={IoWomanSharp} />
               <Playcardreusable
                 content1="Expert Guidance and Support"
@@ -44,10 +44,10 @@ const Mainfeature = () => {
                 content3="Learn More"
               />
             </div>
-            <div className="w-[23%]">
+            <div className="lg:w-[23%] w-[48%] lg:mt-0 mt-5">
               <Svg icon={PiDotsNineLight} />
               <Playcardreusable
-                content1=" Virtual Tours"
+                content1="New Virtual Tours Service"
                 content2="Discover an array of hand-picked properties that meet the highest standards of luxury and comfort."
                 content3="Learn More"
               />

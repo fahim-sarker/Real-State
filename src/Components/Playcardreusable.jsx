@@ -3,10 +3,10 @@ import React from "react";
 const Playcardreusable = ({ content1, content2, content3 }) => {
   return (
     <>
-      <h4 class="mb-3 text-xl font-bold text-dark dark:text-white font-popins">
+      <h4 class="mb-3 lg:text-xl text-sm font-bold text-dark dark:text-white font-popins">
         {content1}
       </h4>
-      <p class="mb-8 text-body-color dark:text-dark-6 lg:mb-9 font-popins text-[17px]">
+      <p class="mb-8 text-body-color dark:text-dark-6 lg:mb-9 font-popins lg:text-[17px] text-[14px]">
         {content2}
       </p>
       <a
