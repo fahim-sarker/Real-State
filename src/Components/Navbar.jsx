@@ -53,7 +53,7 @@ const Navbar = () => {
               onClick={toggleSidebar}
             >
               <div
-                className={`fixed left-0 top-0 w-64 h-full bg-gray-800 p-5 transition-all duration-700 ${
+                className={`fixed left-0 top-0 w-64 h-full bg-gray-800  p-5 transition-all duration-700 ${
                   isSidebarOpen
                     ? "transform translate-x-0 duration-700 ease-in-out"
                     : "transform -translate-x-full  duration-700 ease-in-out"

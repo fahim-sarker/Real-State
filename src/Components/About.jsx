@@ -36,20 +36,6 @@ const About = () => {
             <div className="lg:w-[50%] w-full flex justify-between">
                 <div className="w-[48%] ">
                     <img src={Meeting} alt="Meeting" className="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px] rounded-lg"/>
-                    <div
-                  class="relative lg:hidden z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8 sm:w-full">
-                  <div>
-                    <span class="block text-5xl font-extrabold text-white">
-                      10
-                    </span>
-                    <span class="block text-base font-semibold text-white">
-                      We have
-                    </span>
-                    <span class="block text-base font-medium text-white text-opacity-70">
-                      Years of experience
-                    </span>
-                  </div>
-                </div>
                 </div>
                 <div className="w-[48%]">
                 <div class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
@@ -58,7 +44,7 @@ const About = () => {
                 </div>
 
                 <div
-                  class="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8 sm:w-full lg:mt-0 mt-8">
+                  class="relative mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8 sm:w-full lg:mt-0 mt-8 lg:mr-0">
                   <div>
                     <span class="block text-5xl font-extrabold text-white">
                       09

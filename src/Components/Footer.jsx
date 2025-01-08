@@ -6,17 +6,17 @@ import Office from "../assets/office.jpg"
 const Footer = () => {
   return (
     <>
-      <section className="py-[40px] bg-[#090E34]">
+      <section className="py-[40px] lg:px-0 px-2 bg-[#090E34]">
         <Container>
-          <div className="flex justify-between">
-            <div className="w-[20%]">
-              <img src={Logo} alt="Logo" className="h-20 w-20 rounded-full mb-6" />
+          <div className="flex flex-wrap justify-between">
+            <div className="lg:w-[20%] w-full">
+              <img src={Logo} alt="Logo" className="h-20 w-20 rounded-full mb-6 lg:mx-0 mx-auto" />
               <p class="lg:max-w-[270px] text-base text-white">
                 We create digital experiences for brands and companies by using
                 technology.
               </p>
             </div>
-            <div className="w-[20%] mt-2">
+            <div className="lg:w-[20%] w-[48%] mt-2">
             <h4 class="mb-9 text-lg font-semibold text-white">About Us</h4>
             <ul>
               <li>
@@ -37,7 +37,7 @@ const Footer = () => {
 
             </ul>
             </div>
-            <div className="w-[20%] mt-2">
+            <div className="lg:w-[20%] w-[48] mt-2">
             <h4 class="mb-9 text-lg font-semibold text-white">Features</h4>
             <ul>
               <li>
@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
             </ul>
             </div>
-            <div className="w-[30%]">
+            <div className="lg:w-[30%] w-full">
             <h4 class="mb-9 text-lg font-semibold text-white">Latest blog</h4>
             <div class="flex flex-col gap-8">
               <a href="blog-details.html" class="group flex items-center gap-[22px]">
